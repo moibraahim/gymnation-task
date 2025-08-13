@@ -202,8 +202,7 @@ gymnation-task/
 - Uvicorn 0.32.0
 
 ## Notes
-
-- In-memory booking storage (production should use database)
 - Session IDs for conversation grouping
 - CORS enabled for all origins (restrict in production)
 - Default timeout 120 seconds for API calls
+- note: no auth has been created for now
